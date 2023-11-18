@@ -1,5 +1,0 @@
-Just a test commit
-
-This is another test commit
-
-This has to be the final test commit

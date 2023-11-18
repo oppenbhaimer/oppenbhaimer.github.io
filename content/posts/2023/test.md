@@ -2,6 +2,10 @@
 title: "Testing"
 date: 2023-09-10T16:37:44+05:30
 draft: false
+categories:
+- Tests
+tags:
+- Testing
 ---
 
 Usual new blog test.
@@ -92,6 +96,6 @@ $$
 I think that's it. Maybe a hint tag, but I'll add that on my own. Embedding 
 HTML works here, so iframes/embeds can be added as pleased.
 
-<center><blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Making a good GitHub pages blog is so much effort smh I’ll probably just use substack from now on</p>&mdash; Oppenbhaimer (@oppenbhaimer) <a href="https://twitter.com/oppenbhaimer/status/1684909995841003520?ref_src=twsrc%5Etfw">July 28, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></center>
+<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">Making a good GitHub pages blog is so much effort smh I’ll probably just use substack from now on</p>&mdash; Oppenbhaimer (@oppenbhaimer) <a href="https://twitter.com/oppenbhaimer/status/1684909995841003520?ref_src=twsrc%5Etfw">July 28, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-<center><sub>Look how well that aged, huh</sub></center>
+<sub>Look how well that aged, huh</sub>

@@ -1,27 +1,45 @@
 baseURL = 'https://oppenbhaimer.github.io'
 languageCode = 'en-us'
 title = 'Oppenbhaimer'
-theme = 'paper'
+theme = 'microkai'
 
 # disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
 
 [[menu.main]]
-  name = "About"
-  url = "/about/"
+  name = "Blog"
+  url = "/posts/"
   weight = 1
 [[menu.main]]
-  name = "Posts"
-  url = "/posts/"
+  name = "Tags"
+  url = "/tags/"
   weight = 2
+[[menu.main]]
+  name = "Categories"
+  url = "/categories/"
+  weight = 3
 
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+  [markup.highlight]
+    anchorLineNos = true
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ""
+    hl_inline = false
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    noHl = false
+    tabWidth = 4
 
 [params]
   # color style
-  color = 'linen'                           # linen, wheat, gray, light
+# color = 'linen'                           # linen, wheat, gray, light
+  paginate = 100
 
   # header social icons
   twitter = 'oppenbhaimer'               # twitter.com/YOUR_TWITTER_ID
@@ -32,13 +50,13 @@ theme = 'paper'
   rss = true                                # show rss icon
 
   # home page profile
-  avatar = '/pic.png'                 # gravatar email or image url
+# avatar = '/pic.png'                 # gravatar email or image url
   name = 'Oppenbhaimer'
   bio = "I post neither about Nuclear Physics nor about Salman Khan."
 
   # misc
   disableHLJS = true                        # disable highlight.js
-  disablePostNavigation = true              # disable post navigation
+  disablePostNavigation = false             # disable post navigation
   monoDarkIcon = true                       # show monochrome dark mode icon
 # gravatarCdn = 'GRAVATAR_CDN_LINK'                      # e.g. 'https://cdn.v2ex.com/gravatar/'
   graphCommentId = "oppenbhaimer-github-io" # use graph comment (disqus alternative)

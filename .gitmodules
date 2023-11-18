@@ -1,3 +1,3 @@
-[submodule "themes/paper"]
-	path = themes/paper
-	url = https://github.com/oppenbhaimer/hugo-paper
+[submodule "themes/microkai"]
+	path = themes/microkai
+	url = git@github.com-alt:Oppenbhaimer/microkai
