@@ -14,8 +14,8 @@ to. Whenever he wrote something new, he felt it didn't live up to that
 standard, and trashed it in the bin.
 
 > "That's absurd"<br>
-> "Not Really. I went to <insert convention> and had so many people tell me my
-article about <famous movie> was so amazing. I have to maintain this!"
+> "Not Really. I went to \<insert convention\> and had so many people tell me my
+article about \<famous movie\> was so amazing. I have to maintain this!"
 
 What followed was also him deleting several personal articles on his blog.
 
