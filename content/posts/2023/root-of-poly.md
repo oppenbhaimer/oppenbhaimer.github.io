@@ -4,8 +4,8 @@ date: 2023-11-19T15:18:00+05:30
 categories:
 - Math 
 tags:
-- polynomials
-- miniatures
+- Polynomials
+- Miniatures
 ---
 
 A nice polynomial problem: 
